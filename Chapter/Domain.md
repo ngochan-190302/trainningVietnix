@@ -32,6 +32,7 @@ Gồm 3 thành phần chính: Subdomain, Domain Name, và Top-Level Domain
 ## Một số khái niệm liên quan
 
 NameServer: có chức năng điều phối quá trình hoạt động của tên miền website, chuyển đổi từ tên miền sang địa chỉ IP.
+
 Addon Domain: là một tên miền có thể được sử dụng cùng với tên miền chính để lưu trữ nhiều trang web khác nhau trên cùng một tài khoản web hosting. Nó hoạt động giống tên miền chính. thường được sử dụng bởi các doanh nghiệp hoặc cá nhân sở hữu nhiều trang web có liên quan đến nhau. 
 
 
