@@ -29,7 +29,7 @@ no cost
 
 Được tạo nên bằng ngôn ngữ python
 
-DÙng nền tảng webserver trên openlitespeed
+Dùng nền tảng webserver trên openlitespeed
 
 Hỗ trợ chia packet
 
