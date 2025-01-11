@@ -1,9 +1,13 @@
 # cPanel
+## Tổng quan
+cPanel là web hosting control panel (công cụ quản trị web hosting) trên nền tảng Linux phổ biến nhất hiện nay. cPanel có giao diện đơn giản, linh hoạt, giúp người dùng quản lý tất cả các dịch vụ của web hosting một cách dễ dàng.
+
+Hệ thống phân cấp ba lớp: Hosting company, Reseller, End User
 
 ## I. cPanel Interface
 
 ### Search bar
-cPanel có rất nhiều tính năng, để có thể tìm kiếm đến một tính năng nhanh nhất.
+cPanel có rất nhiều tính năng để có thể tìm kiếm đến một tính năng nhanh nhất.
 
 ### General Information
 Chứa các thông tin cơ bản của gói Hosting và server cPanel.
@@ -35,8 +39,8 @@ Nơi cấu hình Catch-all Email.
 Thay vì khi nhận Hosting nhận được một email đến 1 địa chỉ không tồn tại trên hosting thì nó sẽ trả về cho người gửi thông báo "No Such User Here", thì khi cấu hình Default Address Hosting sẽ gửi các email đó đến email default này.
 
 #### Mailling Lists
-Tạo một group tên "tech@vietnix.vn". Sau đó add nhiều email vào đây như tech1@vietnix.vn, tech2@vietnix.vn. 
-Chức năng của Mailling List là khi có một email gửi tới tech@vietnix.vn thì sẽ được gửi đồng thời đến tất cả email trong group đó.
+Tạo một group. Sau đó add nhiều email vào đây
+Chức năng của Mailling List là khi có một email gửi tới thì sẽ được gửi đồng thời đến tất cả email trong group đó.
 
 #### Track Delivery
 Theo dõi trạng thái của email gửi ra.
