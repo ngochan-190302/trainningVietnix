@@ -1,7 +1,7 @@
 # HOSTING
  
 ## Hosting 
-Hosting cung cấp không gian lưu trữ dữ liệu, nó giúp đăng data, Website và app lên Internet giúp chúng hoạt động 24/7. Chia server thành nhiều không gian lưu trữ dữ liệu. 
+Hosting cung cấp không gian lưu trữ dữ liệu, nó giúp đăng data, Website và app lên Internet giúp chúng hoạt động 24/7. Nó chia server thành nhiều không gian lưu trữ dữ liệu. 
 ## Web 
 Web chứa các dữ liệu, hình ảnh, video nằm trên cùng một domain, được lưu trữ trên Webserver.
 
