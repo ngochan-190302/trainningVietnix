@@ -99,7 +99,9 @@ NS: dùng để chỉ định root nameserver chịu trách nhiệm quan lý tê
 MX: xác định một máy chủ nhận mail cho một tên miền
 ### Các loại truy vấn trong DNS
 Recursive query: DNS client yêu cầu máy chủ DNS => sẽ trả về client 1 record hoặc thông báo lỗi nếu không tìm thấy record yêu cầu.
+
 Iterative query: DNS client sẽ cho phép máy chủ DNS trả về câu trả lời tốt nhất => Nếu không truy ra được kết quả trùng khớp sẽ trả về một giới thiệu đến máy chủ có thẩm quyền thấp hơn, sau đó client sé tiếp tục truy vấn đến địa chỉ đã giới thiệu.
+
 Non-recursive query: Xảy ra khi DNS resolver client truy vấn máy chủ DNS một record mà server có quyền truy cập hoặc bản ghi tồn tại bên trong bộ đệm của server.
 
 
