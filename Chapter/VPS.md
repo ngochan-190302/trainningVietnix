@@ -2,9 +2,6 @@
 ## VPS
 VPS được phát triển bằng cách chia nhỏ một máy chủ vật lý tạo ra nhiều máy chủ ảo có tính năng riêng biệt.
 Tài nguyên từ máy chủ được phân bổ độc lập.
-VPS không mạnh như server
-Dịch vụ VPS cung cấp máy chủ ảo, hoạt động tương tự như một máy chủ vật lý.
-Nếu 2 VPS có cùng RAM, ổ ứng, Bandwidth => thì dựa vào CPU để đánh giá, CPU càng cao, đời càng mới thì càng mạnh.
 ## Cách thức hoạt động của VPS
 Mỗi VPS được tách biệt với các người dùng khác trên cùng một máy chủ. Nó tách biệt với những người dùng máy chủ khác ở cấp độ hệ điều hành.
 VPS có nhiệm vụ lưu trữ các tệp và cơ sở dữ liệu cần thiết cho trang web. Bất cứ khi nào khách hàng truy cập trực tuyến muốn truy cập Website thì trình duyệt của họ sẽ gửi một yêu cầu đến máy chủ sau đó nó sẽ chuyển các tệp cần thiết qua Internet.
@@ -31,4 +28,9 @@ truy xuất dữ liệu từ ổ cứng
 |Có quyền truy cập quản trị viên (root) cho phép cài đặt phần mềm và tinh chỉnh hệ điều hành.|Nâng cấp VPS tốn kém và không phải lúc nào cũng khả thi, cần đánh giá nhu cầu cẩn thận.|
 |Dễ dàng điều chỉnh cấu hình VPS (RAM, CPU, dung lượng lưu trữ) để đáp ứng nhu cầu thay đổi.||
 
-## Ứng dụng của VPS 
+## Kết luận
+VPS không mạnh như server
+Dịch vụ VPS cung cấp máy chủ ảo, hoạt động tương tự như một máy chủ vật lý.
+Nếu 2 VPS có cùng RAM, ổ ứng, Bandwidth => thì dựa vào CPU để đánh giá, CPU càng cao, đời càng mới thì càng mạnh.
+CPU cần bằng tải tốt thì chạy tốt
+Dòng E-1270v6 được sử dụng phổ biến => ít core, xung cao
