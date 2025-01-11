@@ -12,5 +12,10 @@
 
 ## 2. WHM Administration Certification Exam (CWA)
 ![Screenshot from 2025-01-11 12-07-49](https://github.com/user-attachments/assets/bf902ef0-7998-4167-8862-0c6806868f2f)
+
+## 3. cPanel & WHM System Administrator I Certification Exam (CWSA-1)
+
+![Screenshot from 2025-01-11 23-02-29](https://github.com/user-attachments/assets/d881dfd6-d137-4982-b1e1-05da67ee1930)
+
 ## 4. cPanel & WHM System Administrator II Certification Exam (CWSA-2)
 ![Screenshot from 2025-01-11 12-09-06](https://github.com/user-attachments/assets/3d7896c2-ce1a-48a6-85b6-52cba3cabfa4)
