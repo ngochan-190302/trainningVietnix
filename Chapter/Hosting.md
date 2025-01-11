@@ -8,6 +8,19 @@ Web chứa các dữ liệu, hình ảnh, video nằm trên cùng một domain, 
 Web tồn tại dưới dang tập tin html hoặc xhtml có thể truy cập bằng giao thức http hoặc https. Người dùng có thể truy cập thông qua Edge Microsoft, Google Chrome, ... 
 
 Để Web hoạt động được thì cần có Source Code Website, Web hosting và Domain. 
+### Một số port thông dụng
+HTTP: 80
+
+DNS: 53
+
+HTTPS:443
+
+SMTP: 25
+
+POP3: 110
+
+IMAP: 143
+
 ## Các thông số cần thiết của Web hosting 
 CPU là khả năng xử lý của hosting, CPU càng cao thì càng mạnh.
 
