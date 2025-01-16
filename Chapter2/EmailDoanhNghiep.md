@@ -67,4 +67,11 @@ Sau đó tiến hành trỏ các loại record lần lượt là A, MX, DKIM, SP
 
 ![2025-01-16_10-16](https://github.com/user-attachments/assets/f37785f9-e4de-418a-950d-f69e34494234)
 
+B3: Vào Email Account > Check mail > Open => tạo một email để gửi đến địa chỉ bất kì và từ một email ngoài gửi tin đến email vừa tạo để kiểm tra email này đã được cấu hình đúng chưa, có thể nhận và gửi được mail hay chưa
+### Check nhận mail
 
+![2025-01-16_10-28](https://github.com/user-attachments/assets/ff3ab635-6243-4f8c-a0d1-e1d3166aab82)
+
+### Check gửi mail
+
+![2025-01-16_10-32](https://github.com/user-attachments/assets/5bfc8e87-1919-4746-8fbf-0e2cfdbfcf83)
