@@ -73,3 +73,13 @@ cur new tmp
 
 /home/sammy/Maildir/tmp:
 ```
+#### Kiểm tra
+Chạy lệnh s-nail sẽ thấy một hộp thư đến với tin nhắn init đang chờ:
+```bash
+Output
+s-nail version v14.9.15.  Type `?' for help
+"/home/sammy/Maildir": 1 message 1 new
+>N  1 sammy@example.com     2025-05-16 15:40     init
+```
+- Nhấn enter để hiển thị tin nhắn
+  
