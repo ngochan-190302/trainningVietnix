@@ -82,4 +82,49 @@ s-nail version v14.9.15.  Type `?' for help
 >N  1 sammy@example.com     2025-05-16 15:40     init
 ```
 - Nhấn enter để hiển thị tin nhắn
+## Setup FTP
+### Cài đặt máy chủ
+- Cài đặt vsftpd (Very Secure FTP Daemon)
+``` bash
+sudo apt update
+sudo apt install vsftpd -y
+```
+-Cấu hình vsftpd
+
+Mở tệp cấu hình
+```bash
+sudo nano /etc/vsftpd.conf
+```
+Cập nhật các dòng sau
+```bash
+local_enable=YES
+write_enable=YES
+chroot_local_user=YES
+pasv_enable=YES
+pasv_min_port=10000
+pasv_max_port=10100
+```
+Khởi động lại vsftpd
+```bash
+sudo systemctl restart vsftpd
+```
+### Tạo tài khoản FTP
+- Thêm người dùng hệ thống mới cho FTP
+```bash
+sudo adduser nghan
+```
+- Gán quyền cho thư mục của người dùng
+```bash
+sudo chown ftpuser:nghan /home/nghan
+sudo chmod 750 /home/nghan
+```
+### Kiểm tra máy chủ FTP
+- Sử dụng lệnh
+```bash
+ftp your-server-ip
+```
+- Đăng nhập với thông tin:
   
+Tên người dùng: nghan
+
+
