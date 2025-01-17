@@ -1,5 +1,5 @@
 # Cài đặt cấu hình Hosting/VPS
-## Cài đặt cấu hình Hosting
+## Cài đặt cấu hình VPS
 ### Chuẩn bị 
 - Chọn nhà cung cấp VPS, và chọn cấu hình phù hợp (RAM, CPU, ổ cứng SSD, băng thông...).
   
