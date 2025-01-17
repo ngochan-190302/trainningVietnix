@@ -1,7 +1,8 @@
 # Cài đặt cấu hình Hosting/VPS
 ## Cài đặt hosting 
 ### Chuẩn bị
-- Chọn nhà cung cấp domain, mua và đăng ký tên miền. Sau đó đăng nhập vào tài khoản 
+- Chọn nhà cung cấp domain, mua và đăng ký tên miền. Sau đó đăng nhập vào tài khoản
+  
 B1: Đăng nhập vào tài khoản tên miền của bạn với nhà cung cấp tên miền
 
 B2: Chọn tên miền muốn cấu hình, vào Maanage > DNS Management 
@@ -23,7 +24,7 @@ B4: Thêm 2 Record NS:
 ![2025-01-17_14-34](https://github.com/user-attachments/assets/96c2fc7c-b9aa-4295-87d1-75eda9df13e8)
 
 - Kết quả:
-- 
+  
 ![2025-01-17_14-40](https://github.com/user-attachments/assets/acd7e23c-5a79-46a5-bb5d-0b2fdee10817)
 
 ## Cài đặt cấu hình VPS
