@@ -72,7 +72,23 @@ server {
 ```bash
 sudo systemctl restart nginx
 ```
+
 => Lúc này, những request vào host 192.168.181.130:80 (là địa chỉ của Reverse Proxy Server) sẽ được chuyển đến 192.168.181.133 (Backend server 1)
 
 ![2025-01-17_10-28](https://github.com/user-attachments/assets/771d06ff-b53f-46d4-9d10-4595cf68d146)
 
+- Cài đặt SSL sử dụng Let's Encrypt
+Cài Certbot
+```bash
+sudo apt install certbot python3-certbot-nginx -y
+```
+Cấp chứng chỉ SSL
+```bash
+sudo certbot --nginx -d example.com
+```
+### Kiểm tra hoạt động
+Log Nginx:
+```bash
+sudo tail -f /var/log/nginx/access.log
+sudo tail -f /var/log/nginx/error.log
+```
