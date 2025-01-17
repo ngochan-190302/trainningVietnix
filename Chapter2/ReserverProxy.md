@@ -1,12 +1,13 @@
 # Setup Reserver Proxy
-## Khái niệm
+## Tổng quan
+### Khái niệm
 Reserver Proxy là máy chủ trung gian nằ giữa client và Origin Server.
 
 Khi người dùng truy cập thì yêu cầu chuyển đến Reserver Proxy tahy vì trực tiếp chuyển đến máy chủ.
 
 Nó có các tính năng giống như một firewall
 
-## Công dụng
+### Công dụng
 Load Balencer: Phân phối lưu lượng truy cập, tránh dồn lưu lượng về một máy chủ gây quá tải => Cái thiện hiệu năng và khả năng chịu lỗi
 
 Security: Ẩn địa chỉ IP của máy chủ => Giảm nguy cơ bị tấn công , ngăn chặn các nguy cơ độc hại trước khi đến máy chủ.
@@ -18,22 +19,60 @@ Xử lý mã hóa/ Giải mã SSL/ TLS => giảm quy trình xử lý của máy 
 Nén dữ liệu giứp giảm băng thông và tăng tốc độ tải
 
 Chuyển hướng request theo yêu cầu đến server.
-## Các bước cấu hình Ngnix Reserver Proxy trên cPanel
-### Các cấu hình yêu cầu
-Chạy EasyApache 4
+## Các bước cấu hình Reserver Proxy 
+### 1. Cấu hình Backed Server
+#### Backend server 1
+- Tạo file index.html với nội dung
+```bash
+<h1> Web1 <h1>
+```
+- Tạo ra một con Webserver chạy port 8000
+```bash
+python -m SimpleHTTPServer
+```
+- Kiểm tra
 
-Có quyên truy cập của người dùng root vào máy chủ
-### Các bước cấu cài đặt
-Bước 1: Đăng nhập vào WHM với tư cách Root user.
+![2025-01-17_09-49](https://github.com/user-attachments/assets/6ad5f3aa-cfa5-4225-b386-52d61857ed35)
 
-Bước 2: Truy cập vào giao diện NGINX Manager tại WHM >> Home >> Software >> NGINX Manager.
+#### Backend server 2
+- Tạo file index.html với nội dung
+```bash
+<h1> Web2 <h1>
+```
+- Tạo ra một con Webserver chạy port 8000
+```bash
+python -m SimpleHTTPServer
+```
+- Kiểm tra
 
-Bước 3: Chọn Install để Bắt đầu cày đặt 
+![2025-01-17_09-53](https://github.com/user-attachments/assets/5824dd4f-d623-4930-8f77-547cd478944f)
 
-![Setup Reserver Proxy](https://github.com/user-attachments/assets/9d000772-726f-45a4-9d82-7b7fcda19870)
+### 2. Cấu hình Reserver Proxy Server
+- Cày đặt Nginx
+```bash
+sudo apt install nginx -y
+```
+- Mở file cấu hình để chỉnh sửa
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+- Thêm cấu hình Reverse Proxy:
+```bash
+server {
+    listen 80;
+    server_name ltnhan.site;
+    root/var/www/web2;
+    index index.php index.html;
+    location / {
+        proxy_pass http://192.168.181.133:8000; 
+    }
+}
+```
+- Khởi động lại Nginx:
+```bash
+sudo systemctl restart nginx
+```
+=> Lúc này, những request vào host 192.168.181.130:80 (là địa chỉ của Reverse Proxy Server) sẽ được chuyển đến 192.168.181.133 (Backend server 1)
 
-Ngoài ra, còn có thể sử dụng giao diện EasyApache 4 hoặc chạy lệnh sau với tư cách là người dùng root:
-
-![Screenshot from 2025-01-15 14-34-51](https://github.com/user-attachments/assets/651b642b-aba5-4c22-bfa0-969a1b4c17fa)
-
+![2025-01-17_10-28](https://github.com/user-attachments/assets/771d06ff-b53f-46d4-9d10-4595cf68d146)
 
