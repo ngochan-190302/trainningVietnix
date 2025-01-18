@@ -11,3 +11,7 @@
 - Vào All-in-one > Chọn Export > Chọn File.
 
 ![2025-01-17_15-54](https://github.com/user-attachments/assets/fd92decb-1d91-4b8d-b4cc-d7992b18129d)
+
+- Qua Hosting muốn chuyển dữ liệu vào WordPress tương tự bước trên
+- Vào All-in-one > Chọn Import > Chọn File > Tải file vừa xuất lên
+- Khi đó sẽ thấy dữ liệu trang Web được chuyển vẫn nguyên vẹn.
