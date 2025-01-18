@@ -1,10 +1,20 @@
 # Table of Content
+## Tuần 1
 1. [cPanel](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/Cpanel.md)
 2. [WHM](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/WHM.md)
 3. [Hosting](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/Hosting.md)
 4. [VPS](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/VPS.md)
 5. [Domain](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/Domain.md)
 6. [Other Web Panel](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter/Other%20Web%20Panel.md)
+## Tuần 2
+1. [Trainning Email Doanh nghiệp](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/EmailDoanhNghiep.md)
+2. [Cài đặt cấu hình Hosting/VPS](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/CreateVPS-Hosting.md)
+3. [Setup Website Wordpress, cài Plugins, Kích hoạt license](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/WordPress.md)
+4. [Chuyển dữ liệu Website](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/TransferWebsiteData.md)
+5. [Setup Email Account và FTP Account thủ công](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/setupEmail-FTP.md)\
+6. [Setup Windows Server](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/SetupWindowsServer.md)
+7. [Setup Reserver Proxy](https://github.com/ngochan-190302/trainningVietnix/blob/main/Chapter2/ReserverProxy.md)
+
 
 # Certification
 ## 1. cPanel Professional Certification Exam (CPP)
